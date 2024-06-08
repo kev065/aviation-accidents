@@ -1,1 +1,1 @@
-View an interactive dashboard for this project [here](https://public.tableau.com/app/profile/kelvin.murithi/viz/Aviation_Expansion_Dashboard_17178564462710/AverageInjuriesByMake) 
+View an interactive dashboard for this project [here](https://public.tableau.com/app/profile/kelvin.murithi/viz/Aviation_Expansion_Dashboard_17178564462710/AverageInjuriesByMake) and presentation slides [here](https://www.canva.com/design/DAGHfLmoKU0/6oduvEozUpzvoglQvJ7GXA/view?utm_content=DAGHfLmoKU0&utm_campaign=designshare&utm_medium=link&utm_source=editor)
