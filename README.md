@@ -80,6 +80,6 @@ I also did an analysis by engine number. Since all major manufacturers have move
 #### **Recommendations**
 Based on this analysis, I am recommending the **Airbus 320** for our commercial division and **Bombardier CL-600** for our private division. 
 
-It's worth noting that although Boeing has a slightly lower fatality rate of 0.0559 compared to Bombardier's slightly higher 0.0588 rate, I've chosen not to recommend Boeing due to the recent revelations that they've been lax on quality control, and the recent Alaska Airlines door blowout.
+It's worth noting that although Boeing has a slightly lower fatality rate of 0.0559 compared to Bombardier's slightly higher 0.0588 rate, I've chosen not to recommend Boeing due to the recent revelations that they've been [lax on quality control](https://archive.fo/9GynT), and the recent Alaska Airlines [door blowout](https://en.wikipedia.org/wiki/Alaska_Airlines_Flight_1282).
 
 By making these informed decisions, we aim to ensure the safety of our passengers and crew as we expand into the aviation industry.
