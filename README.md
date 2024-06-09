@@ -83,3 +83,5 @@ Based on this analysis, I am recommending the **Airbus 320** for our commercial 
 It's worth noting that although Boeing has a slightly lower fatality rate of 0.0559 compared to Bombardier's slightly higher 0.0588 rate, I've chosen not to recommend Boeing due to the recent revelations that they've been [lax on quality control](https://archive.fo/9GynT), and the recent Alaska Airlines [door blowout](https://en.wikipedia.org/wiki/Alaska_Airlines_Flight_1282).
 
 By making these informed decisions, we aim to ensure the safety of our passengers and crew as we expand into the aviation industry.
+
+For a thorough analysis of this dataset, check out this [**notebook**](https://github.com/kev065/aviation-accidents/blob/main/index.ipynb).
