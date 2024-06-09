@@ -29,7 +29,7 @@ Ensuring the quality and consistency of our data is paramount. I undertook the f
 3. **Cleaning 'Model' Column Values**: To ensure consistency, I've converted all values in this column to strings. Additionally, I replaced spaces with hyphens to avoid any potential issues with spaces in our data.
 
 ## **Data Reduction**
-In our analysis of aviation accidents, I aim to focus on the most relevant data to enable making of informed recommendations. As such, I have decided to perform data reduction by dropping certain columns from this dataset. This step will simplify our data and make it easier to handle, without losing the information that is crucial to our analysis.
+In this analysis, I aim to focus on the most relevant data to enable making of informed recommendations. As such, I have decided to perform data reduction by dropping certain columns from this dataset. This step will simplify our data and make it easier to handle, without losing the information that is crucial to our analysis.
 
 The columns I dropped are:
 
@@ -41,3 +41,45 @@ The columns I dropped are:
 6. **Far_Description**: This column contains regulatory info that is not directly related to our analysis.
 
 By reducing our data in this way, I can focus more closely on the factors that are most relevant to this project. This will help draw more accurate conclusions and help me make meaningful recommendations to present to the new aviation honcho.
+
+## **Data Subsetting by Aircraft Manufacturer**
+
+In this analysis, I am particularly interested in the most common passenger plane manufacturers. To focus our analysis, I have created a subset of our data, `top_10_makes`, which includes only the aircrafts made by the top 10 manufacturers according to [Investopedia](https://www.investopedia.com/ask/answers/050415/what-companies-are-major-players-airline-supply-business.asp) and [AeroTime Hub](https://www.aerotime.aero/articles/top-10-largest-aircraft-manufacturers-in-the-world).
+
+I've standardized the names of these manufacturers in the dataset to ensure consistency. The top 10 manufacturers I've included are:
+
+1. **Boeing**
+2. **Airbus**
+3. **Bombardier**
+4. **Embraer**
+5. **Cessna**
+6. **Dassault**
+7. **Pilatus**
+8. **Hawker**
+9. **Gulfstream**
+10. **Mitsubishi**
+
+I've excluded military aircraft manufacturers like Lockheed Martin and Northrop Grumman, as well as some Russian and Chinese manufacturers due to their limited numbers in the dataset. My focus is on manufacturers of passenger planes, as this is most relevant to our expansion into the aviation industry. By focusing on these top manufacturers, we can gain a more accurate understanding of the trends and factors that impact safety in the majority of passenger aircrafts.
+
+## **Aircraft Selection Analysis**
+
+In our venture into the aviation industry, safety is our utmost priority. I've conducted an in-depth analysis of aircraft accidents and have made some key decisions based on our findings.
+
+### **Aircraft Selection for Private and Commercial Divisions**
+
+I've narrowed down our choices to **Bombardier** for our private division and **Airbus** for the commercial division. This decision was based on their low fatality rate and high uninjured rate.
+
+#### **Model Analysis**
+
+Upon analyzing the models, we first narrowed down to aircraft models that had a 100% uninjured rate. I then determined the most popular aircraft model by counting how many entries each of the models had in the data. The ``CL-600`` had the highest count. Although this dataset does not have a record of all flights, I'm assuming the CL-600 has the highest number of occurrences due to its popularity. This assumption is supported by the fact that the Bombardier aircrafts are proven to be safe, and all accidents with this model have a 100% uninjured rate.
+
+#### **Engine Number Analysis**
+
+I also did an analysis by engine number. Since all major manufacturers have moved away from 4 and 3 engine models to 2 engine models, I figured this shouldn't be an issue anyway.
+
+#### **Recommendations**
+Based on this analysis, I am recommending the **Airbus 320** for our commercial division and **Bombardier CL-600** for our private division. 
+
+It's worth noting that although Boeing has a slightly lower fatality rate of 0.0559 compared to Bombardier's slightly higher 0.0588 rate, I've chosen not to recommend Boeing due to the recent revelations that they've been lax on quality control, and the recent Alaska Airlines door blowout.
+
+By making these informed decisions, we aim to ensure the safety of our passengers and crew as we expand into the aviation industry.
