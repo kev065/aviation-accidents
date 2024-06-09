@@ -61,6 +61,13 @@ I've standardized the names of these manufacturers in the dataset to ensure cons
 
 I've excluded military aircraft manufacturers like Lockheed Martin and Northrop Grumman, as well as some Russian and Chinese manufacturers due to their limited numbers in the dataset. My focus is on manufacturers of passenger planes, as this is most relevant to our expansion into the aviation industry. By focusing on these top manufacturers, we can gain a more accurate understanding of the trends and factors that impact safety in the majority of passenger aircrafts.
 
+## **Limitations**
+1. **Missing Values** - Significant portions of the data are missing in many columns. Missing data can lead to biased or incomplete analysis. For instance, missing information about the location or aircraft category might not reveal important patterns related to accident frequency or severity.
+2. **Incomplete Data on Injuries** - The columns `Total.Fatal.Injuries`, `Total.Serious.Injuries`, `Total.Minor.Injuries`, and `Total.Uninjured` have many missing values. Without complete injury data, it's challenging to accurately assess the safety of different aircraft models. The risk assessment might be skewed if severe accidents are underreported or missing.
+3. **Lack of Contextual Information** - The dataset doesn't include detailed information on operational factors such as maintenance records, pilot experience, or specific environmental conditions at the time of the accident. These factors are crucial in understanding the full context of accidents and making informed recommendations. Without this data, this analysis may have overlooked critical contributors to aviation safety.
+4. **Historical Nature of Data** - The dataset spans from 1962 to 2023. Aviation technology, regulations, and practices have evolved significantly over this long period. Old data might not be as relevant to current aircraft models and technologies. Trends observed in old data might not accurately reflect current safety standards.
+5. **Geographical Bias** - The data primarily covers accidents in the US and international waters. This geographical focus might not represent global aviation safety trends, limiting the applicability of the findings to international operations and thereby potentially affecting the recommendations I've made.
+
 ## **Aircraft Selection Analysis**
 
 In our venture into the aviation industry, safety is our utmost priority. I've conducted an in-depth analysis of aircraft accidents and have made some key decisions based on our findings.
@@ -75,7 +82,7 @@ Upon analyzing the models, we first narrowed down to aircraft models that had a 
 
 #### **Engine Number Analysis**
 
-I also did an analysis by engine number. Since all major manufacturers have moved away from 4 and 3 engine models to 2 engine models, I figured this shouldn't be an issue anyway.
+I also did an analysis by engine number. However, since all major manufacturers have moved away from 4 and 3 engine models to 2 engine models, I figured this shouldn't be an issue anyway.
 
 #### **Recommendations**
 Based on this analysis, I am recommending the **Airbus 320** for our commercial division and **Bombardier CL-600** for our private division. 
